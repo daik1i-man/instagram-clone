@@ -87,7 +87,7 @@ export default function SearchComponent() {
                                     {filtered.map((user, i) => (
                                         <FollowersCardComponent
                                             key={i}
-                                            userEmail={user.email}
+                                            userUid={user.userId}
                                             userName={user.userName}
                                             userFullName={user.fullName}
                                             userImgUrl={user.imgUrl}
